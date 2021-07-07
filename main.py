@@ -10,6 +10,8 @@ with open("coco.names","r") as f:
     class_names = [cname.strip() for cname in f.readlines()]
 
 #CAPITURANDO VIDEO    
+#caso deseje usar a camera é so alterar apagar o q esta entre parenteses e colocar 0
+#case queira testar com outros videos so colocar na mesma pasta do projeto, colocar o nome dele entre aspas como feito abaixo
 cap=cv2.VideoCapture("hehe.mp4")
 
 #carregando pessos da rede neural
